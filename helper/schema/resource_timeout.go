@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/configs/hcl2shim"
+	"github.com/schiangtc/terraform/terraform"
 	"github.com/mitchellh/copystructure"
 )
 

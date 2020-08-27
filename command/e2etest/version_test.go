@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/e2e"
-	tfcore "github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/e2e"
+	tfcore "github.com/schiangtc/terraform/terraform"
 )
 
 func TestVersion(t *testing.T) {

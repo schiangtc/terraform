@@ -37,7 +37,7 @@ import (
 	"log"
 	"os"
 
-	tfversion "github.com/hashicorp/terraform/version"
+	tfversion "github.com/schiangtc/terraform/version"
 	"github.com/mitchellh/cli"
 )
 

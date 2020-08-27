@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/command/clistate"
+	"github.com/schiangtc/terraform/tfdiags"
 	"github.com/mitchellh/cli"
 )
 

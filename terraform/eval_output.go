@@ -6,10 +6,10 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/states"
 )
 
 // EvalDeleteOutput is an EvalNode implementation that deletes an output

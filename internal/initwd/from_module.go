@@ -9,14 +9,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/internal/earlyconfig"
+	"github.com/schiangtc/terraform/internal/earlyconfig"
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/internal/copydir"
-	"github.com/hashicorp/terraform/internal/modsdir"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/internal/copydir"
+	"github.com/schiangtc/terraform/internal/modsdir"
+	"github.com/schiangtc/terraform/registry"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 const initFromModuleRootCallName = "root"

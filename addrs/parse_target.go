@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // Target describes a targeted address with source location information.

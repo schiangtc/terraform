@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/dag"
 )
 
 func TestProviderTransformer(t *testing.T) {
@@ -582,7 +582,7 @@ module.child.module.grandchild.aws_instance.baz
 provider["registry.terraform.io/hashicorp/aws"].foo
 `
 
-const testTransformImportModuleChildStr = `        
+const testTransformImportModuleChildStr = `
 module.child.aws_instance.foo
   provider["registry.terraform.io/hashicorp/aws"]
 module.child.aws_instance.foo (import id "bar")

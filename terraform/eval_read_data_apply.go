@@ -3,9 +3,9 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // evalReadDataApply is an EvalNode implementation that deals with the main part

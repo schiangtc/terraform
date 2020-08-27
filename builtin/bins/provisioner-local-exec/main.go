@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/provisioners/local-exec"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/schiangtc/terraform/builtin/provisioners/local-exec"
+	"github.com/schiangtc/terraform/plugin"
 )
 
 func main() {

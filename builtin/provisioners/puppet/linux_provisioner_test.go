@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/communicator"
+	"github.com/schiangtc/terraform/communicator/remote"
+	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func TestResourceProvisioner_linuxUploadFile(t *testing.T) {

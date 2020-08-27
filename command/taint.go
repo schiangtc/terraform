@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/command/clistate"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // TaintCommand is a cli.Command implementation that manually taints

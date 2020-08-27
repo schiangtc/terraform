@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func testProviderFixed(p terraform.ResourceProvider) ProviderFunc {

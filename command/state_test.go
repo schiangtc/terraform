@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/states/statemgr"
 )
 
 // testStateBackups returns the list of backups in order of creation

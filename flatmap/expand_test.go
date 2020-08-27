@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/hashicorp/terraform/configs/hcl2shim"
+	"github.com/schiangtc/terraform/configs/hcl2shim"
 )
 
 func TestExpand(t *testing.T) {

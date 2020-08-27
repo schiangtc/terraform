@@ -1,8 +1,8 @@
 package provisioners
 
 import (
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

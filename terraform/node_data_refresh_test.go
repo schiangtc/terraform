@@ -5,8 +5,8 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/instances"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/instances"
 )
 
 func TestNodeRefreshableDataResourceDynamicExpand_scaleOut(t *testing.T) {

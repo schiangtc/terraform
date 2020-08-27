@@ -2,7 +2,7 @@ package customdiff
 
 import (
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/helper/schema"
 )
 
 // All returns a CustomizeDiffFunc that runs all of the given

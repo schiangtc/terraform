@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/providers"
+	"github.com/schiangtc/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
+	backendInit "github.com/schiangtc/terraform/backend/init"
 )
 
 func dataSourceRemoteStateGetSchema() providers.Schema {

@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/helper/copy"
+	"github.com/schiangtc/terraform/helper/copy"
 	"github.com/mitchellh/cli"
 )
 

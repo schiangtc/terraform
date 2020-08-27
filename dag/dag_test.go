@@ -12,9 +12,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/tfdiags"
 
-	"github.com/hashicorp/terraform/helper/logging"
+	"github.com/schiangtc/terraform/helper/logging"
 )
 
 func TestMain(m *testing.M) {

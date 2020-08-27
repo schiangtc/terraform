@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // TestResourceDataDep_alignedCountScaleOut tests to make sure interpolation

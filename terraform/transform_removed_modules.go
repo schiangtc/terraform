@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/states"
 )
 
 // RemovedModuleTransformer implements GraphTransformer to add nodes indicating

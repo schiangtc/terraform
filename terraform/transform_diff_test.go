@@ -6,8 +6,8 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/plans"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/plans"
 )
 
 func TestDiffTransformer_nilDiff(t *testing.T) {

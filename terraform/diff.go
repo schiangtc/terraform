@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/configs/hcl2shim"
 	"github.com/zclconf/go-cty/cty"
 
 	"github.com/mitchellh/copystructure"

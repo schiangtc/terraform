@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func testConfig(t *testing.T, c map[string]interface{}) *terraform.ResourceConfig {

@@ -3,8 +3,8 @@ package local
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/internal/initwd"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/internal/initwd"
 )
 
 func TestLocalContext(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/schiangtc/terraform/addrs"
 )
 
 // LookupLegacyProvider attempts to resolve a legacy provider address (whose

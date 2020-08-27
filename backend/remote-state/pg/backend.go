@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/helper/schema"
 	_ "github.com/lib/pq"
 )
 

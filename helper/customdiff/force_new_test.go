@@ -3,7 +3,7 @@ package customdiff
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/helper/schema"
 )
 
 func TestForceNewIf(t *testing.T) {

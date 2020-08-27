@@ -7,8 +7,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/internal/getproviders"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/internal/getproviders"
 )
 
 // lockFile represents a file on disk that captures selected versions and

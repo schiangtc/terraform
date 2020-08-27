@@ -7,9 +7,9 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func TestTaint(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hashicorp/terraform/e2e"
+	"github.com/schiangtc/terraform/e2e"
 )
 
 var terraformBin string

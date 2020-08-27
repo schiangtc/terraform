@@ -3,7 +3,7 @@ package getproviders
 import (
 	"sync"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/schiangtc/terraform/addrs"
 )
 
 // MemoizeSource is a Source that wraps another Source and remembers its

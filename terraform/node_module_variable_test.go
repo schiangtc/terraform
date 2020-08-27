@@ -8,8 +8,8 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs"
 )
 
 func TestnodeModuleVariablePath(t *testing.T) {

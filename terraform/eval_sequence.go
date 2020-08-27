@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // EvalSequence is an EvalNode that evaluates in sequence.

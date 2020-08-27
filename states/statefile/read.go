@@ -10,8 +10,8 @@ import (
 
 	version "github.com/hashicorp/go-version"
 
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/tfdiags"
+	tfversion "github.com/schiangtc/terraform/version"
 )
 
 // ErrNoState is returned by ReadState when the state file is empty.

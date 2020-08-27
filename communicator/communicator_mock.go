@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/communicator/remote"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // MockCommunicator is an implementation of Communicator that can be used for tests.

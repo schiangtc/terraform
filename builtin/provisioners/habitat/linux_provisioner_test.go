@@ -1,9 +1,9 @@
 package habitat
 
 import (
-	"github.com/hashicorp/terraform/communicator"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/communicator"
+	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/schiangtc/terraform/terraform"
 	"testing"
 )
 

@@ -1,7 +1,7 @@
 package pg
 
 // Create the test database: createdb terraform_backend_pg_test
-// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/hashicorp/terraform/backend/remote-state/pg
+// TF_ACC=1 GO111MODULE=on go test -v -mod=vendor -timeout=2m -parallel=4 github.com/schiangtc/terraform/backend/remote-state/pg
 
 import (
 	"database/sql"
@@ -9,8 +9,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/states/remote"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/states/remote"
 	_ "github.com/lib/pq"
 )
 

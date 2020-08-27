@@ -5,12 +5,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/tfdiags"
 
-	backendLocal "github.com/hashicorp/terraform/backend/local"
+	backendLocal "github.com/schiangtc/terraform/backend/local"
 )
 
 // StateMeta is the meta struct that should be embedded in state subcommands.

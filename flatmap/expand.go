@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/terraform/configs/hcl2shim"
+	"github.com/schiangtc/terraform/configs/hcl2shim"
 )
 
 // Expand takes a map and a key (prefix) and expands that value into

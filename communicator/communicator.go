@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/communicator/ssh"
-	"github.com/hashicorp/terraform/communicator/winrm"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/communicator/remote"
+	"github.com/schiangtc/terraform/communicator/ssh"
+	"github.com/schiangtc/terraform/communicator/winrm"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // Communicator is an interface that must be implemented by all communicators

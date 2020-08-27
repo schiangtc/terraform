@@ -1,7 +1,7 @@
 package objchange
 
 import (
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

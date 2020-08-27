@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/hashicorp/terraform/helper/plugin"
-	proto "github.com/hashicorp/terraform/internal/tfplugin5"
-	tfplugin "github.com/hashicorp/terraform/plugin"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/helper/plugin"
+	proto "github.com/schiangtc/terraform/internal/tfplugin5"
+	tfplugin "github.com/schiangtc/terraform/plugin"
+	"github.com/schiangtc/terraform/providers"
+	"github.com/schiangtc/terraform/terraform"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 )

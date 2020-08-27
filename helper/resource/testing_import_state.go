@@ -10,10 +10,10 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // testStepImportState runs an import state test step

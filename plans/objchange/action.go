@@ -3,7 +3,7 @@ package objchange
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/plans"
+	"github.com/schiangtc/terraform/plans"
 )
 
 // ActionForChange determines which plans.Action value best describes a

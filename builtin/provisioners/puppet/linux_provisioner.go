@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/hashicorp/terraform/communicator/remote"
+	"github.com/schiangtc/terraform/communicator/remote"
 )
 
 func (p *provisioner) linuxUploadFile(f io.Reader, dir string, filename string) error {

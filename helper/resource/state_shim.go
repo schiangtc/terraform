@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/schiangtc/terraform/addrs"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/configs/hcl2shim"
+	"github.com/schiangtc/terraform/helper/schema"
 
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // shimState takes a new *states.State and reverts it to a legacy state for the provider ACC tests

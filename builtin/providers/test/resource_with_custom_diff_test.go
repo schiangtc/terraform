@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/schiangtc/terraform/helper/resource"
 )
 
 // TestResourceWithCustomDiff test custom diff behaviour.

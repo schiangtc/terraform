@@ -6,11 +6,11 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/moduledeps"
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/schiangtc/terraform/moduledeps"
+	"github.com/schiangtc/terraform/plugin/discovery"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // A Config is a node in the tree of modules within a configuration.

@@ -9,12 +9,12 @@ import (
 	hclog "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
 
-	"github.com/hashicorp/terraform/addrs"
-	terraformProvider "github.com/hashicorp/terraform/builtin/providers/terraform"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
-	tfplugin "github.com/hashicorp/terraform/plugin"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/schiangtc/terraform/addrs"
+	terraformProvider "github.com/schiangtc/terraform/builtin/providers/terraform"
+	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/schiangtc/terraform/internal/providercache"
+	tfplugin "github.com/schiangtc/terraform/plugin"
+	"github.com/schiangtc/terraform/providers"
 )
 
 // The TF_DISABLE_PLUGIN_TLS environment variable is intended only for use by

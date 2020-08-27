@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/initwd"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/internal/initwd"
+	"github.com/schiangtc/terraform/providers"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/terraform"
 
 	"github.com/zclconf/go-cty/cty"
 )

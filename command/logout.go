@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	svchost "github.com/hashicorp/terraform-svchost"
-	"github.com/hashicorp/terraform/command/cliconfig"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/command/cliconfig"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // LogoutCommand is a Command implementation which removes stored credentials

@@ -10,13 +10,13 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/helper/copy"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/providers"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/terraform"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 )
@@ -66,7 +66,7 @@ func TestShow_noArgs(t *testing.T) {
 	}
 }
 
-// https://github.com/hashicorp/terraform/issues/21462
+// https://github.com/schiangtc/terraform/issues/21462
 func TestShow_aliasedProvider(t *testing.T) {
 	// Create the default state with aliased resource
 	testState := states.BuildState(func(s *states.SyncState) {

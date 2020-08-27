@@ -6,10 +6,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/helper/didyoumean"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/helper/didyoumean"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 // StaticValidateReferences checks the given references against schemas and

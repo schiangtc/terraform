@@ -11,10 +11,10 @@ import (
 	tritonErrors "github.com/joyent/triton-go/errors"
 	"github.com/joyent/triton-go/storage"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/states/remote"
+	"github.com/schiangtc/terraform/states/statemgr"
 )
 
 func (b *Backend) Workspaces() ([]string, error) {

@@ -8,10 +8,10 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // stateValues is the common representation of resolved values for both the

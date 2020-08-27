@@ -12,8 +12,8 @@ import (
 	"time"
 
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // LocalState manages a state storage that is local to the filesystem.

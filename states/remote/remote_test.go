@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/schiangtc/terraform/states/statemgr"
 )
 
 // testClient is a generic function to test any client.

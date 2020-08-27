@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/states"
 )
 
 func TestRefreshGraphBuilder_configOrphans(t *testing.T) {

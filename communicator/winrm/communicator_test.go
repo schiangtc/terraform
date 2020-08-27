@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/dylanmei/winrmtest"
-	"github.com/hashicorp/terraform/communicator/remote"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/communicator/remote"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func newMockWinRMServer(t *testing.T) *winrmtest.Remote {

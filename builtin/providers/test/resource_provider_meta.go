@@ -3,7 +3,7 @@ package test
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/helper/schema"
 )
 
 func testResourceProviderMeta() *schema.Resource {

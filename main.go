@@ -15,12 +15,12 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/command/cliconfig"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/command/cliconfig"
+	"github.com/schiangtc/terraform/command/format"
+	"github.com/schiangtc/terraform/helper/logging"
+	"github.com/schiangtc/terraform/httpclient"
+	"github.com/schiangtc/terraform/version"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-shellwords"
 	"github.com/mitchellh/cli"
@@ -28,7 +28,7 @@ import (
 	"github.com/mitchellh/panicwrap"
 	"github.com/mitchellh/prefixedio"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
+	backendInit "github.com/schiangtc/terraform/backend/init"
 )
 
 const (

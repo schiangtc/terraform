@@ -7,9 +7,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/command/clistate"
+	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/schiangtc/terraform/states/statemgr"
 	"github.com/mitchellh/cli"
 )
 

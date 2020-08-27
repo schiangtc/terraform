@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/dag"
+	"github.com/schiangtc/terraform/dag"
 )
 
 func TestVertexTransformer_impl(t *testing.T) {

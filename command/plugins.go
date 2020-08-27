@@ -14,10 +14,10 @@ import (
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/kardianos/osext"
 
-	tfplugin "github.com/hashicorp/terraform/plugin"
-	"github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/terraform"
+	tfplugin "github.com/schiangtc/terraform/plugin"
+	"github.com/schiangtc/terraform/plugin/discovery"
+	"github.com/schiangtc/terraform/provisioners"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // NOTE WELL: The logic in this file is primarily about plugin types OTHER THAN

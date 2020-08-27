@@ -8,20 +8,20 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/helper/copy"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/terraform"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/hashicorp/terraform/backend/init"
-	backendLocal "github.com/hashicorp/terraform/backend/local"
-	backendInmem "github.com/hashicorp/terraform/backend/remote-state/inmem"
+	backendInit "github.com/schiangtc/terraform/backend/init"
+	backendLocal "github.com/schiangtc/terraform/backend/local"
+	backendInmem "github.com/schiangtc/terraform/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.

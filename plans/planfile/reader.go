@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/states/statefile"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/configs/configload"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 const tfstateFilename = "tfstate"

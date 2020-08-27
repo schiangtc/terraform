@@ -14,17 +14,17 @@ import (
 	"github.com/posener/complete"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	backendInit "github.com/hashicorp/terraform/backend/init"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/terraform"
-	"github.com/hashicorp/terraform/tfdiags"
-	tfversion "github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/backend"
+	backendInit "github.com/schiangtc/terraform/backend/init"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/schiangtc/terraform/internal/providercache"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/terraform"
+	"github.com/schiangtc/terraform/tfdiags"
+	tfversion "github.com/schiangtc/terraform/version"
 )
 
 // InitCommand is a Command implementation that takes a Terraform
@@ -994,7 +994,7 @@ Options:
   -no-color            If specified, output won't contain any color.
 
   -plugin-dir          Directory containing plugin binaries. This overrides all
-                       default search paths for plugins, and prevents the 
+                       default search paths for plugins, and prevents the
                        automatic installation of plugins. This flag can be used
                        multiple times.
 

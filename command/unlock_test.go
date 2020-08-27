@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hashicorp/terraform/backend/remote-state/inmem"
-	"github.com/hashicorp/terraform/helper/copy"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/backend/remote-state/inmem"
+	"github.com/schiangtc/terraform/helper/copy"
+	"github.com/schiangtc/terraform/terraform"
 	"github.com/mitchellh/cli"
 )
 

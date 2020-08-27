@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func TestProviderLabelDataSource(t *testing.T) {

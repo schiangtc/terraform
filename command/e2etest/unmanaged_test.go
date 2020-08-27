@@ -10,11 +10,11 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
-	"github.com/hashicorp/terraform/builtin/providers/test"
-	"github.com/hashicorp/terraform/e2e"
-	grpcplugin "github.com/hashicorp/terraform/helper/plugin"
-	proto "github.com/hashicorp/terraform/internal/tfplugin5"
-	tfplugin "github.com/hashicorp/terraform/plugin"
+	"github.com/schiangtc/terraform/builtin/providers/test"
+	"github.com/schiangtc/terraform/e2e"
+	grpcplugin "github.com/schiangtc/terraform/helper/plugin"
+	proto "github.com/schiangtc/terraform/internal/tfplugin5"
+	tfplugin "github.com/schiangtc/terraform/plugin"
 )
 
 // The tests in this file are for the "unmanaged provider workflow", which

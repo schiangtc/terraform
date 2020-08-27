@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/schiangtc/terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/go-homedir"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"
@@ -26,7 +26,7 @@ import (
 const (
 	noConfigError = `
 
-[Kubernetes backend] Neither service_account nor load_config_file were set to true, 
+[Kubernetes backend] Neither service_account nor load_config_file were set to true,
 this could cause issues connecting to your Kubernetes cluster.
 `
 )

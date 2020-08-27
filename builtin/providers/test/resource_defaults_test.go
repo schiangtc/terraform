@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/schiangtc/terraform/helper/resource"
 )
 
 func TestResourceDefaults_basic(t *testing.T) {

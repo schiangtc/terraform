@@ -5,7 +5,7 @@ package command
 import (
 	"fmt"
 
-	"github.com/hashicorp/terraform/repl"
+	"github.com/schiangtc/terraform/repl"
 	"github.com/mitchellh/cli"
 )
 

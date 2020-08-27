@@ -15,17 +15,17 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/helper/experiment"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/internal/initwd"
-	"github.com/hashicorp/terraform/plans"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/provisioners"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/configs/configload"
+	"github.com/schiangtc/terraform/helper/experiment"
+	"github.com/schiangtc/terraform/helper/logging"
+	"github.com/schiangtc/terraform/internal/initwd"
+	"github.com/schiangtc/terraform/plans"
+	"github.com/schiangtc/terraform/providers"
+	"github.com/schiangtc/terraform/provisioners"
+	"github.com/schiangtc/terraform/registry"
+	"github.com/schiangtc/terraform/states"
 )
 
 // This is the directory where our test fixtures are.

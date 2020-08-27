@@ -11,11 +11,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/clistate"
-	"github.com/hashicorp/terraform/states"
-	"github.com/hashicorp/terraform/states/statemgr"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/command/clistate"
+	"github.com/schiangtc/terraform/states"
+	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 type backendMigrateOpts struct {
@@ -496,7 +496,7 @@ This will attempt to copy (with permission) all workspaces again.
 `
 
 const errBackendStateCopy = `
-Error copying state from the previous %q backend to the newly configured 
+Error copying state from the previous %q backend to the newly configured
 %q backend:
     %s
 
@@ -550,7 +550,7 @@ If you answer "yes", Terraform will migrate all states. If you answer
 
 const inputBackendNewWorkspaceName = `
 Please provide a new workspace name (e.g. dev, test) that will be used
-to migrate the existing default workspace. 
+to migrate the existing default workspace.
 `
 
 const inputBackendSelectWorkspace = `

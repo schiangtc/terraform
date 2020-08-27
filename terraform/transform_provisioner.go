@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/go-multierror"
-	"github.com/hashicorp/terraform/dag"
+	"github.com/schiangtc/terraform/dag"
 )
 
 // GraphNodeProvisioner is an interface that nodes that can be a provisioner

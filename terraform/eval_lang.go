@@ -3,10 +3,10 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/schiangtc/terraform/addrs"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

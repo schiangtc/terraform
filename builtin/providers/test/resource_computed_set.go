@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/hashicorp/terraform/helper/hashcode"
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/helper/hashcode"
+	"github.com/schiangtc/terraform/helper/schema"
 )
 
 func testResourceComputedSet() *schema.Resource {

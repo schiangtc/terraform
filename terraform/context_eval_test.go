@@ -5,8 +5,8 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/providers"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/providers"
 	"github.com/zclconf/go-cty/cty"
 )
 

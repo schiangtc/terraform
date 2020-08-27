@@ -16,7 +16,7 @@ import (
 	"unicode"
 
 	"github.com/bgentry/speakeasy"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/terraform"
 	"github.com/mattn/go-isatty"
 	"github.com/mitchellh/colorstring"
 )

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/providers/test"
-	"github.com/hashicorp/terraform/plugin"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/builtin/providers/test"
+	"github.com/schiangtc/terraform/plugin"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func main() {

@@ -6,7 +6,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/backend"
+	"github.com/schiangtc/terraform/backend"
 )
 
 func TestImpl(t *testing.T) {

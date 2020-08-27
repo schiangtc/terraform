@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/hashicorp/terraform/helper/wrappedstreams"
+	"github.com/schiangtc/terraform/helper/wrappedstreams"
 )
 
 // getWidth impl for Unix

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform/helper/resource"
+	"github.com/schiangtc/terraform/helper/resource"
 )
 
 // an empty config should be ok, because no deprecated/removed fields are set.

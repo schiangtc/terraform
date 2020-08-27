@@ -15,13 +15,13 @@ import (
 
 	getter "github.com/hashicorp/go-getter"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/internal/getproviders"
-	"github.com/hashicorp/terraform/internal/providercache"
-	discovery "github.com/hashicorp/terraform/plugin/discovery"
-	"github.com/hashicorp/terraform/tfdiags"
-	"github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/httpclient"
+	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/schiangtc/terraform/internal/providercache"
+	discovery "github.com/schiangtc/terraform/plugin/discovery"
+	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/schiangtc/terraform/version"
 	"github.com/mitchellh/cli"
 )
 
@@ -319,7 +319,7 @@ Options:
 
   -arch=name  		Target CPU architecture the archive will be built for. Defaults
 					to that of the system where the command is being run.
-					  
+
   -plugin-dir=path 	The path to the custom plugins directory. Defaults to "./plugins".
 
 The resulting zip file can be used to more easily install Terraform and
@@ -353,8 +353,8 @@ not a normal Terraform configuration file. The file format looks like this:
 		versions = ["~> 1.0", "~> 2.0"]
 	}
 
-	# Include a custom plugin to the bundle. Will search for the plugin in the 
-	# plugins directory, and package it with the bundle archive. Plugin must 
+	# Include a custom plugin to the bundle. Will search for the plugin in the
+	# plugins directory, and package it with the bundle archive. Plugin must
 	# have a name of the form: terraform-provider-*, and must be built with
 	# the operating system and architecture that terraform enterprise is running,
 	# e.g. linux and amd64.

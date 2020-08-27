@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hashicorp/terraform/flatmap"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/flatmap"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 // Validator is a helper that helps you validate the configuration

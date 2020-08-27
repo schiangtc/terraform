@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/hashicorp/terraform/states/remote"
-	"github.com/hashicorp/terraform/states/statemgr"
+	"github.com/schiangtc/terraform/states/remote"
+	"github.com/schiangtc/terraform/states/statemgr"
 	k8serrors "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
@@ -322,7 +322,7 @@ func (c *RemoteClient) createSecretName() (string, error) {
 	errs := validation.IsDNS1123Subdomain(secretName)
 	if len(errs) > 0 {
 		k8sInfo := `
-This is a requirement for Kubernetes secret names. 
+This is a requirement for Kubernetes secret names.
 The workspace name and key must adhere to Kubernetes naming conventions.`
 		msg := fmt.Sprintf("the secret name %v is invalid, ", secretName)
 		return "", errors.New(msg + strings.Join(errs, ",") + k8sInfo)

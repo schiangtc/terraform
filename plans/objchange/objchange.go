@@ -5,7 +5,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/configs/configschema"
 )
 
 // ProposedNewObject constructs a proposed new object value by combining the

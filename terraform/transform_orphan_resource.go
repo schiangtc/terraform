@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/dag"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/dag"
+	"github.com/schiangtc/terraform/states"
 )
 
 // OrphanResourceInstanceTransformer is a GraphTransformer that adds orphaned

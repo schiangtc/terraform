@@ -11,11 +11,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/configs/configschema"
-	"github.com/hashicorp/terraform/configs/hcl2shim"
-	"github.com/hashicorp/terraform/providers"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/configs/hcl2shim"
+	"github.com/schiangtc/terraform/providers"
+	"github.com/schiangtc/terraform/states"
 )
 
 func TestContext2Refresh(t *testing.T) {
@@ -855,7 +855,7 @@ func TestContext2Refresh_dataCount(t *testing.T) {
 	// creating object for the first time against an empty state.
 	//
 	// For more information, see:
-	//    https://github.com/hashicorp/terraform/issues/21047
+	//    https://github.com/schiangtc/terraform/issues/21047
 
 	p.GetSchemaReturn = &ProviderSchema{
 		ResourceTypes: map[string]*configschema.Block{
@@ -1432,7 +1432,7 @@ func TestContext2Refresh_schemaUpgradeFlatmap(t *testing.T) {
 		got := state.String()
 		want := strings.TrimSpace(`
 test_thing.bar:
-  ID = 
+  ID =
   provider = provider["registry.terraform.io/hashicorp/test"]
   name = foo
 `)
@@ -1514,7 +1514,7 @@ func TestContext2Refresh_schemaUpgradeJSON(t *testing.T) {
 		got := state.String()
 		want := strings.TrimSpace(`
 test_thing.bar:
-  ID = 
+  ID =
   provider = provider["registry.terraform.io/hashicorp/test"]
   name = foo
 `)

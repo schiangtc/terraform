@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/version"
 )
 
 // The git commit that was compiled. This will be filled in by the compiler.

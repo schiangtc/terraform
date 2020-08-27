@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/schiangtc/terraform/helper/schema"
 )
 
 func testResourceList() *schema.Resource {

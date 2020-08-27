@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/hashicorp/terraform/builtin/provisioners/salt-masterless"
-	"github.com/hashicorp/terraform/plugin"
+	"github.com/schiangtc/terraform/builtin/provisioners/salt-masterless"
+	"github.com/schiangtc/terraform/plugin"
 )
 
 func main() {

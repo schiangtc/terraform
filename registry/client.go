@@ -16,11 +16,11 @@ import (
 	"github.com/hashicorp/go-retryablehttp"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/hashicorp/terraform/helper/logging"
-	"github.com/hashicorp/terraform/httpclient"
-	"github.com/hashicorp/terraform/registry/regsrc"
-	"github.com/hashicorp/terraform/registry/response"
-	"github.com/hashicorp/terraform/version"
+	"github.com/schiangtc/terraform/helper/logging"
+	"github.com/schiangtc/terraform/httpclient"
+	"github.com/schiangtc/terraform/registry/regsrc"
+	"github.com/schiangtc/terraform/registry/response"
+	"github.com/schiangtc/terraform/version"
 )
 
 const (

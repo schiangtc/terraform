@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/hashicorp/terraform/addrs"
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/command/format"
-	"github.com/hashicorp/terraform/states"
+	"github.com/schiangtc/terraform/addrs"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/command/format"
+	"github.com/schiangtc/terraform/states"
 	"github.com/mitchellh/cli"
 )
 
@@ -167,11 +167,11 @@ func (c *StateShowCommand) Synopsis() string {
 const errNoInstanceFound = `No instance found for the given address!
 
 This command requires that the address references one specific instance.
-To view the available instances, use "terraform state list". Please modify 
+To view the available instances, use "terraform state list". Please modify
 the address to reference a specific instance.`
 
 const errParsingAddress = `Error parsing instance address: %s
 
 This command requires that the address references one specific instance.
-To view the available instances, use "terraform state list". Please modify 
+To view the available instances, use "terraform state list". Please modify
 the address to reference a specific instance.`

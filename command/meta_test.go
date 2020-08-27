@@ -10,9 +10,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/hashicorp/terraform/backend"
-	"github.com/hashicorp/terraform/backend/local"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/schiangtc/terraform/backend"
+	"github.com/schiangtc/terraform/backend/local"
+	"github.com/schiangtc/terraform/terraform"
 )
 
 func TestMetaColorize(t *testing.T) {

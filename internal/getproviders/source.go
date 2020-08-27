@@ -1,7 +1,7 @@
 package getproviders
 
 import (
-	"github.com/hashicorp/terraform/addrs"
+	"github.com/schiangtc/terraform/addrs"
 )
 
 // A Source can query a particular source for information about providers

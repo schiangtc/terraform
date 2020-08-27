@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/hashicorp/terraform/httpclient"
+	"github.com/schiangtc/terraform/httpclient"
 )
 
 // Generate a UserAgent string

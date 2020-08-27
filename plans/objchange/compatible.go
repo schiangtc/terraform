@@ -7,7 +7,7 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/hashicorp/terraform/configs/configschema"
+	"github.com/schiangtc/terraform/configs/configschema"
 )
 
 // AssertObjectCompatible checks whether the given "actual" value is a valid

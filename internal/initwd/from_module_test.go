@@ -9,11 +9,11 @@ import (
 	"testing"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/hashicorp/terraform/configs"
-	"github.com/hashicorp/terraform/configs/configload"
-	"github.com/hashicorp/terraform/internal/copydir"
-	"github.com/hashicorp/terraform/registry"
-	"github.com/hashicorp/terraform/tfdiags"
+	"github.com/schiangtc/terraform/configs"
+	"github.com/schiangtc/terraform/configs/configload"
+	"github.com/schiangtc/terraform/internal/copydir"
+	"github.com/schiangtc/terraform/registry"
+	"github.com/schiangtc/terraform/tfdiags"
 )
 
 func TestDirFromModule_registry(t *testing.T) {
@@ -185,7 +185,7 @@ func TestDirFromModule_submodules(t *testing.T) {
 
 // TestDirFromModule_rel_submodules is similar to the test above, but the
 // from-module is relative to the install dir ("../"):
-// https://github.com/hashicorp/terraform/issues/23010
+// https://github.com/schiangtc/terraform/issues/23010
 func TestDirFromModule_rel_submodules(t *testing.T) {
 	// This test creates a tmpdir with the following directory structure:
 	// - tmpdir/local-modules (with contents of testdata/local-modules)
