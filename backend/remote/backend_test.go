@@ -6,11 +6,11 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/version"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "github.com/schiangtc/terraform/backend/local"
+	backendLocal "github.com/truecar-ops/terraform/backend/local"
 )
 
 func TestRemote(t *testing.T) {

@@ -6,20 +6,20 @@ import (
 	"log"
 	"sync"
 
-	"github.com/schiangtc/terraform/instances"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/provisioners"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/instances"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/provisioners"
+	"github.com/truecar-ops/terraform/version"
 
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/states"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/lang"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/lang"
+	"github.com/truecar-ops/terraform/tfdiags"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

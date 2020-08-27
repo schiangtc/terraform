@@ -9,12 +9,12 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcldec"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // TestBackendConfig validates and configures the backend with the

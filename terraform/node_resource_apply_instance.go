@@ -3,12 +3,12 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // NodeApplyableResourceInstance represents a resource instance that is
@@ -119,7 +119,7 @@ func (n *NodeApplyableResourceInstance) EvalTree() EvalNode {
 	if n.Config == nil {
 		// This should not be possible, but we've got here in at least one
 		// case as discussed in the following issue:
-		//    https://github.com/schiangtc/terraform/issues/21258
+		//    https://github.com/truecar-ops/terraform/issues/21258
 		// To avoid an outright crash here, we'll instead return an explicit
 		// error.
 		var diags tfdiags.Diagnostics

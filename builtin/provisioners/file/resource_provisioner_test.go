@@ -3,9 +3,9 @@ package file
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestResourceProvisioner_impl(t *testing.T) {

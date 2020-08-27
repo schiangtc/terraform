@@ -5,8 +5,8 @@ import (
 
 	etcdv3 "github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/pkg/transport"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 const (

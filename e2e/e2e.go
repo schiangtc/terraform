@@ -9,10 +9,10 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/plans/planfile"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/plans/planfile"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statefile"
 )
 
 // Type binary represents the combination of a compiled binary

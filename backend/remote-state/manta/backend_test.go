@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schiangtc/terraform/backend"
+	"github.com/truecar-ops/terraform/backend"
 	"github.com/joyent/triton-go/storage"
 )
 

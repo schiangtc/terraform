@@ -4,15 +4,15 @@
 package command
 
 import (
-	chefprovisioner "github.com/schiangtc/terraform/builtin/provisioners/chef"
-	fileprovisioner "github.com/schiangtc/terraform/builtin/provisioners/file"
-	habitatprovisioner "github.com/schiangtc/terraform/builtin/provisioners/habitat"
-	localexecprovisioner "github.com/schiangtc/terraform/builtin/provisioners/local-exec"
-	puppetprovisioner "github.com/schiangtc/terraform/builtin/provisioners/puppet"
-	remoteexecprovisioner "github.com/schiangtc/terraform/builtin/provisioners/remote-exec"
-	saltmasterlessprovisioner "github.com/schiangtc/terraform/builtin/provisioners/salt-masterless"
+	chefprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/chef"
+	fileprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/file"
+	habitatprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/habitat"
+	localexecprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/local-exec"
+	puppetprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/puppet"
+	remoteexecprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/remote-exec"
+	saltmasterlessprovisioner "github.com/truecar-ops/terraform/builtin/provisioners/salt-masterless"
 
-	"github.com/schiangtc/terraform/plugin"
+	"github.com/truecar-ops/terraform/plugin"
 )
 
 var InternalProviders = map[string]plugin.ProviderFunc{}

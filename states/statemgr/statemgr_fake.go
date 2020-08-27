@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // NewFullFake returns a full state manager that really only supports transient

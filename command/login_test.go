@@ -13,12 +13,12 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/schiangtc/terraform/command/cliconfig"
-	oauthserver "github.com/schiangtc/terraform/command/testdata/login-oauth-server"
-	tfeserver "github.com/schiangtc/terraform/command/testdata/login-tfe-server"
-	"github.com/schiangtc/terraform/command/webbrowser"
-	"github.com/schiangtc/terraform/httpclient"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/command/cliconfig"
+	oauthserver "github.com/truecar-ops/terraform/command/testdata/login-oauth-server"
+	tfeserver "github.com/truecar-ops/terraform/command/testdata/login-tfe-server"
+	"github.com/truecar-ops/terraform/command/webbrowser"
+	"github.com/truecar-ops/terraform/httpclient"
+	"github.com/truecar-ops/terraform/version"
 )
 
 func TestLogin(t *testing.T) {

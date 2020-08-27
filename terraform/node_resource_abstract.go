@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/dag"
-	"github.com/schiangtc/terraform/lang"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/dag"
+	"github.com/truecar-ops/terraform/lang"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // ConcreteResourceNodeFunc is a callback type used to convert an

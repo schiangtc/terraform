@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // HTTPMirrorSource is a source that reads provider metadata from a provider

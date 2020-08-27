@@ -3,10 +3,10 @@ package terraform
 import (
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

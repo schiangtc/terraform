@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/e2e"
+	"github.com/truecar-ops/terraform/e2e"
 )
 
 func TestInitProviders(t *testing.T) {

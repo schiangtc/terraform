@@ -6,9 +6,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/states/statefile"
 )
 
 // Create creates a new plan file with the given filename, overwriting any

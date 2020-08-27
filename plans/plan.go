@@ -3,8 +3,8 @@ package plans
 import (
 	"sort"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -10,9 +10,9 @@ import (
 
 	getter "github.com/hashicorp/go-getter"
 
-	"github.com/schiangtc/terraform/httpclient"
-	"github.com/schiangtc/terraform/internal/copydir"
-	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/httpclient"
+	"github.com/truecar-ops/terraform/internal/copydir"
+	"github.com/truecar-ops/terraform/internal/getproviders"
 )
 
 // We borrow the "unpack a zip file into a target directory" logic from

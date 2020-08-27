@@ -6,7 +6,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/schiangtc/terraform/experiments"
+	"github.com/truecar-ops/terraform/experiments"
 )
 
 func TestExperimentsConfig(t *testing.T) {

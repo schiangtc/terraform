@@ -3,9 +3,9 @@ package terraform
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/providers"
+	"github.com/truecar-ops/terraform/providers"
 
-	backendInit "github.com/schiangtc/terraform/backend/init"
+	backendInit "github.com/truecar-ops/terraform/backend/init"
 )
 
 var testAccProviders map[string]*Provider

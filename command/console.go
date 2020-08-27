@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/wrappedstreams"
-	"github.com/schiangtc/terraform/repl"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/wrappedstreams"
+	"github.com/truecar-ops/terraform/repl"
+	"github.com/truecar-ops/terraform/tfdiags"
 
 	"github.com/mitchellh/cli"
 )

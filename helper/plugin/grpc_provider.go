@@ -11,13 +11,13 @@ import (
 	"github.com/zclconf/go-cty/cty/msgpack"
 	context "golang.org/x/net/context"
 
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/helper/schema"
-	proto "github.com/schiangtc/terraform/internal/tfplugin5"
-	"github.com/schiangtc/terraform/plans/objchange"
-	"github.com/schiangtc/terraform/plugin/convert"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/helper/schema"
+	proto "github.com/truecar-ops/terraform/internal/tfplugin5"
+	"github.com/truecar-ops/terraform/plans/objchange"
+	"github.com/truecar-ops/terraform/plugin/convert"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 const newExtraKey = "_new_extra_shim"

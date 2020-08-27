@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // Schemas is a container for various kinds of schema that Terraform needs

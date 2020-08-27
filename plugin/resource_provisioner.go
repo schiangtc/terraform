@@ -4,8 +4,8 @@ import (
 	"net/rpc"
 
 	"github.com/hashicorp/go-plugin"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 // ResourceProvisionerPlugin is the plugin.Plugin implementation.

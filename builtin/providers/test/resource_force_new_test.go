@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/helper/resource"
 )
 
 func TestResourceForceNew_create(t *testing.T) {

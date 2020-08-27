@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/states"
 )
 
 func TestEvalLocal_impl(t *testing.T) {

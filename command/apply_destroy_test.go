@@ -9,12 +9,12 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statefile"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestApply_destroy(t *testing.T) {

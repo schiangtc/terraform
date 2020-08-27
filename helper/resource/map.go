@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 // Map is a map of resources that are supported, and provides helpers for

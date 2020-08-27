@@ -1,9 +1,9 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/providers"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/providers"
 )
 
 // ProviderEvalTree returns the evaluation tree for initializing and

@@ -3,7 +3,7 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // NodeProvisioner represents a provider that has no associated operations.

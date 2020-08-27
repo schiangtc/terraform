@@ -8,11 +8,11 @@ import (
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statefile"
-	tfversion "github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statefile"
+	tfversion "github.com/truecar-ops/terraform/version"
 )
 
 func TestRoundtrip(t *testing.T) {

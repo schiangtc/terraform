@@ -3,8 +3,8 @@ package test
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 var testAccProviders map[string]terraform.ResourceProvider

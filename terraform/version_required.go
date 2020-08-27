@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/tfdiags"
 
-	"github.com/schiangtc/terraform/configs"
+	"github.com/truecar-ops/terraform/configs"
 
-	tfversion "github.com/schiangtc/terraform/version"
+	tfversion "github.com/truecar-ops/terraform/version"
 )
 
 // CheckCoreVersionRequirements visits each of the modules in the given

@@ -14,14 +14,14 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	backendinit "github.com/schiangtc/terraform/backend/init"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/helper/copy"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	backendinit "github.com/truecar-ops/terraform/backend/init"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestPlan(t *testing.T) {

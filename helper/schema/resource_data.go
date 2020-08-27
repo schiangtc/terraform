@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/terraform"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 )

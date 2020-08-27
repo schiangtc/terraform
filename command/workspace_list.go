@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/posener/complete"
 )
 

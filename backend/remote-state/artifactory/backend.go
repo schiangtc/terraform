@@ -4,10 +4,10 @@ import (
 	"context"
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/states/remote"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/states/remote"
+	"github.com/truecar-ops/terraform/states/statemgr"
 	artifactory "github.com/lusis/go-artifactory/src/artifactory.v401"
 )
 

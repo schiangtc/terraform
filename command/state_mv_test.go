@@ -9,10 +9,10 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/helper/copy"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestStateMv(t *testing.T) {
@@ -1198,7 +1198,7 @@ func TestStateMv_fromBackendToLocal(t *testing.T) {
 
 // This test covers moving the only resource in a module to a new address in
 // that module, which triggers the maybePruneModule functionality. This caused
-// a panic report: https://github.com/schiangtc/terraform/issues/25520
+// a panic report: https://github.com/truecar-ops/terraform/issues/25520
 func TestStateMv_onlyResourceInModule(t *testing.T) {
 	state := states.BuildState(func(s *states.SyncState) {
 		s.SetResourceInstanceCurrent(

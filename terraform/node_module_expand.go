@@ -3,11 +3,11 @@ package terraform
 import (
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/dag"
-	"github.com/schiangtc/terraform/lang"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/dag"
+	"github.com/truecar-ops/terraform/lang"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 type ConcreteModuleNodeFunc func(n *nodeExpandModule) dag.Vertex

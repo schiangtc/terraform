@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // Resource represents the state of a resource.

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/states/statefile"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/states/statemgr"
 )
 
 func TestLocal_impl(t *testing.T) {

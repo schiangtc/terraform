@@ -14,8 +14,8 @@ import (
 	"github.com/google/go-cmp/cmp"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/internal/getproviders"
 )
 
 func TestEnsureProviderVersions_local_source(t *testing.T) {

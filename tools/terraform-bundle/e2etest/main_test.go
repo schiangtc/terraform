@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/schiangtc/terraform/e2e"
+	"github.com/truecar-ops/terraform/e2e"
 )
 
 var bundleBin string
@@ -17,7 +17,7 @@ func TestMain(m *testing.M) {
 }
 
 func setup() func() {
-	tmpFilename := e2e.GoBuild("github.com/schiangtc/terraform/tools/terraform-bundle", "terraform-bundle")
+	tmpFilename := e2e.GoBuild("github.com/truecar-ops/terraform/tools/terraform-bundle", "terraform-bundle")
 	bundleBin = tmpFilename
 
 	return func() {

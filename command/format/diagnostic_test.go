@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 func TestDiagnosticWarningsCompact(t *testing.T) {
@@ -72,7 +72,7 @@ func TestDiagnosticWarningsCompact(t *testing.T) {
 	}
 }
 
-// Test case via https://github.com/schiangtc/terraform/issues/21359
+// Test case via https://github.com/truecar-ops/terraform/issues/21359
 func TestDiagnostic_nonOverlappingHighlightContext(t *testing.T) {
 	var diags tfdiags.Diagnostics
 

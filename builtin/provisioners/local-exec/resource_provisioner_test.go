@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestResourceProvisioner_impl(t *testing.T) {

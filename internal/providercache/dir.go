@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/internal/getproviders"
 )
 
 // Dir represents a single local filesystem directory containing cached

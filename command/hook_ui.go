@@ -13,12 +13,12 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/command/format"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/command/format"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 const defaultPeriodicUiTimer = 10 * time.Second

@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
 )
 
 // GraphNodeAttachProviderMetaConfigs is an interface that must be implemented

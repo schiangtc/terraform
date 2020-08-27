@@ -1,7 +1,7 @@
 package customdiff
 
 import (
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 // ComputedIf returns a CustomizeDiffFunc that sets the given key's new value

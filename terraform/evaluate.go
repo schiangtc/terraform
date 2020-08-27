@@ -12,14 +12,14 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/instances"
-	"github.com/schiangtc/terraform/lang"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/instances"
+	"github.com/truecar-ops/terraform/lang"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // Evaluator provides the necessary contextual data for evaluating expressions

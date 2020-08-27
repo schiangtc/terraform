@@ -12,11 +12,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/plans/objchange"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/plans/objchange"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // ResourceChange returns a string representation of a change to a particular

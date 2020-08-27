@@ -6,7 +6,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 // Set to true when we're testing

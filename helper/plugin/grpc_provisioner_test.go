@@ -5,10 +5,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/golang/mock/gomock"
-	"github.com/schiangtc/terraform/helper/schema"
-	proto "github.com/schiangtc/terraform/internal/tfplugin5"
-	mockproto "github.com/schiangtc/terraform/plugin/mock_proto"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/helper/schema"
+	proto "github.com/truecar-ops/terraform/internal/tfplugin5"
+	mockproto "github.com/truecar-ops/terraform/plugin/mock_proto"
+	"github.com/truecar-ops/terraform/terraform"
 	context "golang.org/x/net/context"
 )
 

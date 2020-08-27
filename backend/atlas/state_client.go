@@ -18,8 +18,8 @@ import (
 	"github.com/hashicorp/go-cleanhttp"
 	"github.com/hashicorp/go-retryablehttp"
 	"github.com/hashicorp/go-rootcerts"
-	"github.com/schiangtc/terraform/states/remote"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/states/remote"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 const (

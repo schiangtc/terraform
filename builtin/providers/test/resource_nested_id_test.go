@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/helper/resource"
 )
 
 func TestResourceNestedId_unknownId(t *testing.T) {

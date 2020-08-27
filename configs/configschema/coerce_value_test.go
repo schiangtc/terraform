@@ -5,7 +5,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 func TestCoerceValue(t *testing.T) {

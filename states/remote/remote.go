@@ -3,7 +3,7 @@ package remote
 import (
 	"fmt"
 
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/states/statemgr"
 )
 
 // Client is the interface that must be implemented for a remote state

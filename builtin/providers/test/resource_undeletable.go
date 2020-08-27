@@ -3,7 +3,7 @@ package test
 import (
 	"fmt"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func testResourceUndeleteable() *schema.Resource {

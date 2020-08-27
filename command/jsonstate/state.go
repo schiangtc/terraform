@@ -8,11 +8,11 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statefile"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 // FormatVersion represents the version of the json format and will be

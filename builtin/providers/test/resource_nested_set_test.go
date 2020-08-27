@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/helper/resource"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestResourceNestedSet_basic(t *testing.T) {

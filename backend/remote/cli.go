@@ -1,7 +1,7 @@
 package remote
 
 import (
-	"github.com/schiangtc/terraform/backend"
+	"github.com/truecar-ops/terraform/backend"
 )
 
 // CLIInit implements backend.CLI

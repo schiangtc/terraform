@@ -3,9 +3,9 @@ package artifactory
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/states/remote"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/states/remote"
 	"github.com/zclconf/go-cty/cty"
 )
 

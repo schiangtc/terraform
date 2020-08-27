@@ -14,17 +14,17 @@ import (
 	"github.com/posener/complete"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	backendInit "github.com/schiangtc/terraform/backend/init"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/internal/getproviders"
-	"github.com/schiangtc/terraform/internal/providercache"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
-	tfversion "github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	backendInit "github.com/truecar-ops/terraform/backend/init"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/internal/providercache"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
+	tfversion "github.com/truecar-ops/terraform/version"
 )
 
 // InitCommand is a Command implementation that takes a Terraform

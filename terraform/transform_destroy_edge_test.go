@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/states"
 )
 
 func TestDestroyEdgeTransformer_basic(t *testing.T) {

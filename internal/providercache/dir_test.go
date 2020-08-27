@@ -6,8 +6,8 @@ import (
 	"github.com/apparentlymart/go-versions/versions"
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/internal/getproviders"
 )
 
 func TestDirReading(t *testing.T) {

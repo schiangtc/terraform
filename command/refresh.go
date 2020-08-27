@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // RefreshCommand is a cli.Command implementation that refreshes the state

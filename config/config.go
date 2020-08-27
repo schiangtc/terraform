@@ -10,9 +10,9 @@ import (
 
 	hcl2 "github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hil/ast"
-	"github.com/schiangtc/terraform/helper/hilmapstructure"
-	"github.com/schiangtc/terraform/plugin/discovery"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/helper/hilmapstructure"
+	"github.com/truecar-ops/terraform/plugin/discovery"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/mitchellh/reflectwalk"
 )
 

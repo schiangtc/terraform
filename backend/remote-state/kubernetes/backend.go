@@ -7,9 +7,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/go-homedir"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"

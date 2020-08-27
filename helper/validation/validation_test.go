@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 type testCase struct {

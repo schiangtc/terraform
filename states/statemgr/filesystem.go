@@ -14,8 +14,8 @@ import (
 
 	multierror "github.com/hashicorp/go-multierror"
 
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statefile"
 )
 
 // Filesystem is a full state manager that uses a file in the local filesystem

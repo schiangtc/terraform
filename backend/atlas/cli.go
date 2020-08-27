@@ -1,7 +1,7 @@
 package atlas
 
 import (
-	"github.com/schiangtc/terraform/backend"
+	"github.com/truecar-ops/terraform/backend"
 )
 
 // backend.CLI impl.

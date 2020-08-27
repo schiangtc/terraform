@@ -7,14 +7,14 @@ import (
 	"sort"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/command/clistate"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/plans/planfile"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/command/clistate"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/plans/planfile"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

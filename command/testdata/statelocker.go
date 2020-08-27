@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/schiangtc/terraform/command/clistate"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/command/clistate"
+	"github.com/truecar-ops/terraform/states/statemgr"
 )
 
 func main() {

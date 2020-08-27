@@ -54,7 +54,7 @@ func (w *closeWalker) StructField(f reflect.StructField, v reflect.Value) error 
 
 	// Verify the io.Closer is in this package
 	typ := v.Type()
-	if typ.PkgPath() != "github.com/schiangtc/terraform/helper/shadow" {
+	if typ.PkgPath() != "github.com/truecar-ops/terraform/helper/shadow" {
 		return nil
 	}
 

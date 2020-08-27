@@ -1,7 +1,7 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // GraphNodeModuleInstance says that a node is part of a graph with a

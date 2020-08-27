@@ -16,18 +16,18 @@ import (
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/states/remote"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
-	tfversion "github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/states/remote"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
+	tfversion "github.com/truecar-ops/terraform/version"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	backendLocal "github.com/schiangtc/terraform/backend/local"
+	backendLocal "github.com/truecar-ops/terraform/backend/local"
 )
 
 const (

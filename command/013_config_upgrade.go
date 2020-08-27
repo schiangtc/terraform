@@ -12,12 +12,12 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/hashicorp/hcl/v2/hclwrite"
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/internal/getproviders"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
-	tfversion "github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
+	tfversion "github.com/truecar-ops/terraform/version"
 	"github.com/zclconf/go-cty/cty"
 )
 

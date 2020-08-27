@@ -8,10 +8,10 @@ import (
 	"strings"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 func (b *Local) opRefresh(

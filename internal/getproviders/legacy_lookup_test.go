@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 func TestLookupLegacyProvider(t *testing.T) {

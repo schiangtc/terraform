@@ -3,9 +3,9 @@ package format
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/plans"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/plans"
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 )

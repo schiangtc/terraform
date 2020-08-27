@@ -8,9 +8,9 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/helper/copy"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/states"
 )
 
 func TestStateRm(t *testing.T) {

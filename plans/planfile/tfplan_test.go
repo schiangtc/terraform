@@ -7,8 +7,8 @@ import (
 	"github.com/go-test/deep"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/plans"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/plans"
 )
 
 func TestTFPlanRoundTrip(t *testing.T) {

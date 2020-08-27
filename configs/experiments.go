@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/schiangtc/terraform/experiments"
+	"github.com/truecar-ops/terraform/experiments"
 )
 
 // sniffActiveExperiments does minimal parsing of the given body for

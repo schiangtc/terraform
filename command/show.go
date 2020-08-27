@@ -5,16 +5,16 @@ import (
 	"os"
 	"strings"
 
-	"github.com/schiangtc/terraform/backend"
-	localBackend "github.com/schiangtc/terraform/backend/local"
-	"github.com/schiangtc/terraform/command/format"
-	"github.com/schiangtc/terraform/command/jsonplan"
-	"github.com/schiangtc/terraform/command/jsonstate"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/plans/planfile"
-	"github.com/schiangtc/terraform/states/statefile"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/backend"
+	localBackend "github.com/truecar-ops/terraform/backend/local"
+	"github.com/truecar-ops/terraform/command/format"
+	"github.com/truecar-ops/terraform/command/jsonplan"
+	"github.com/truecar-ops/terraform/command/jsonstate"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/plans/planfile"
+	"github.com/truecar-ops/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // ShowCommand is a Command implementation that reads and outputs the

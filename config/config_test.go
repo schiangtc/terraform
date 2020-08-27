@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/hil/ast"
-	"github.com/schiangtc/terraform/helper/logging"
+	"github.com/truecar-ops/terraform/helper/logging"
 )
 
 // This is the directory where our test fixtures are.

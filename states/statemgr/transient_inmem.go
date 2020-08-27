@@ -3,7 +3,7 @@ package statemgr
 import (
 	"sync"
 
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // NewTransientInMemory returns a Transient implementation that retains

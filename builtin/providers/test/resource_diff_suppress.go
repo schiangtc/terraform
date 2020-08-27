@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"strings"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func testResourceDiffSuppress() *schema.Resource {

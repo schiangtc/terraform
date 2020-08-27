@@ -10,12 +10,12 @@ import (
 	"strings"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/schiangtc/terraform/communicator"
-	"github.com/schiangtc/terraform/communicator/remote"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/helper/validation"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/communicator"
+	"github.com/truecar-ops/terraform/communicator/remote"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/validation"
+	"github.com/truecar-ops/terraform/terraform"
 	"github.com/mitchellh/go-linereader"
 )
 

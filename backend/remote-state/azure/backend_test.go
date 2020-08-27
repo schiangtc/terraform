@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/acctest"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/acctest"
 )
 
 func TestBackend_impl(t *testing.T) {

@@ -1,7 +1,7 @@
 package getproviders
 
 import (
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // FilesystemMirrorSource is a source that reads providers and their metadata

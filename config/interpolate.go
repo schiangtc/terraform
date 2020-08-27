@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/tfdiags"
 
 	"github.com/hashicorp/hil/ast"
 )

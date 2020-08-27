@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/internal/getproviders"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/xlab/treeprint"
 )
 

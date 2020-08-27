@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func testResourceTimeout() *schema.Resource {

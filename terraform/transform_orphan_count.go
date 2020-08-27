@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/dag"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/dag"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // OrphanResourceInstanceCountTransformer is a GraphTransformer that adds orphans

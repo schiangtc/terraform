@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/tfdiags"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hcltest"
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 	"github.com/zclconf/go-cty/cty"
 )
 

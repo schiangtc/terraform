@@ -10,11 +10,11 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // ImportCommand is a cli.Command implementation that imports resources

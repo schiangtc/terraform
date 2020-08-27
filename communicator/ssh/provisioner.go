@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/schiangtc/terraform/communicator/shared"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/communicator/shared"
+	"github.com/truecar-ops/terraform/terraform"
 	"github.com/mitchellh/mapstructure"
 	sshagent "github.com/xanzy/ssh-agent"
 	"golang.org/x/crypto/ssh"

@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/dag"
-	"github.com/schiangtc/terraform/lang"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/dag"
+	"github.com/truecar-ops/terraform/lang"
 )
 
 // nodeExpandOutput is the placeholder for an output that has not yet had

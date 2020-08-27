@@ -11,7 +11,7 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/mitchellh/cli"
 
-	"github.com/schiangtc/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/helper/copy"
 )
 
 func TestProvidersSchema_error(t *testing.T) {

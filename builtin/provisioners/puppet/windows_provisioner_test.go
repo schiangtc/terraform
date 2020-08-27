@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schiangtc/terraform/communicator"
-	"github.com/schiangtc/terraform/communicator/remote"
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/communicator"
+	"github.com/truecar-ops/terraform/communicator/remote"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 const (

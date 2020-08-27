@@ -3,7 +3,7 @@ package customdiff
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func TestComputedIf(t *testing.T) {

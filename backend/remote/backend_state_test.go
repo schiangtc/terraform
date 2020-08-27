@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/states/remote"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/states/remote"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

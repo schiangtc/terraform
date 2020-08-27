@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/provisioners"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/provisioners"
 )
 
 // ResourceProvisioner is an interface that must be implemented by any

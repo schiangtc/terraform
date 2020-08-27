@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/helper/resource"
 )
 
 func TestResource_dynamicRequiredMinItems(t *testing.T) {

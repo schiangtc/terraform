@@ -1,9 +1,9 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // ImportOpts are used as the configuration for Import.

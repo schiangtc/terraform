@@ -12,10 +12,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/s3"
 	awsbase "github.com/hashicorp/aws-sdk-go-base"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/remote"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/remote"
 )
 
 var (

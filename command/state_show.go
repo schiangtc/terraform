@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/command/format"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/command/format"
+	"github.com/truecar-ops/terraform/states"
 	"github.com/mitchellh/cli"
 )
 

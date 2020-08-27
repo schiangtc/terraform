@@ -3,8 +3,8 @@ package local
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestStateHook_impl(t *testing.T) {

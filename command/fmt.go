@@ -16,8 +16,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/mitchellh/cli"
 
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 const (

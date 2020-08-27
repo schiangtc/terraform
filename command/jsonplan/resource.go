@@ -1,7 +1,7 @@
 package jsonplan
 
 import (
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // Resource is the representation of a resource in the json plan

@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/provisioners"
+	"github.com/truecar-ops/terraform/provisioners"
 )
 
 func TestEvalInitProvisioner_impl(t *testing.T) {

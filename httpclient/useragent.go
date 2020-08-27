@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/version"
 )
 
 const userAgentFormat = "Terraform/%s"

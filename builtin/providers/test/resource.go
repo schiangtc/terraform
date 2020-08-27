@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func testResource() *schema.Resource {

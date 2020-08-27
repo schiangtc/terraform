@@ -3,8 +3,8 @@ package providercache
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/internal/getproviders"
 )
 
 func TestCachedProviderHash(t *testing.T) {

@@ -11,11 +11,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
 )
 
 func TestContext2Refresh(t *testing.T) {
@@ -855,7 +855,7 @@ func TestContext2Refresh_dataCount(t *testing.T) {
 	// creating object for the first time against an empty state.
 	//
 	// For more information, see:
-	//    https://github.com/schiangtc/terraform/issues/21047
+	//    https://github.com/truecar-ops/terraform/issues/21047
 
 	p.GetSchemaReturn = &ProviderSchema{
 		ResourceTypes: map[string]*configschema.Block{

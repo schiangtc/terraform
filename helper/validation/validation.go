@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/schiangtc/terraform/helper/schema"
-	"github.com/schiangtc/terraform/helper/structure"
+	"github.com/truecar-ops/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/structure"
 )
 
 // All returns a SchemaValidateFunc which tests if the provided value

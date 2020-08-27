@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/backend/remote-state/inmem"
-	"github.com/schiangtc/terraform/helper/copy"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/backend/remote-state/inmem"
+	"github.com/truecar-ops/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/states"
 	"github.com/mitchellh/cli"
 )
 

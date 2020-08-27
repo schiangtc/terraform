@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/schiangtc/terraform/helper/plugin"
-	proto "github.com/schiangtc/terraform/internal/tfplugin5"
-	tfplugin "github.com/schiangtc/terraform/plugin"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/helper/plugin"
+	proto "github.com/truecar-ops/terraform/internal/tfplugin5"
+	tfplugin "github.com/truecar-ops/terraform/plugin"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/terraform"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 )

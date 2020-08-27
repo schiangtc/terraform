@@ -5,10 +5,10 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/lang"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/lang"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // EvalValidateSelfRef is an EvalNode implementation that checks to ensure that

@@ -1,9 +1,9 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/dag"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/dag"
 )
 
 // NodeRootVariable represents a root variable input.

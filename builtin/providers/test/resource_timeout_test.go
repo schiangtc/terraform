@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/helper/resource"
 )
 
 func TestResourceTimeout_create(t *testing.T) {

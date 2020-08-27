@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // PlanCommand is a Command implementation that compares a Terraform

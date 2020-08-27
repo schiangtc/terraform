@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	"github.com/apparentlymart/go-dump/dump"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

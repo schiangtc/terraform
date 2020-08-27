@@ -12,12 +12,12 @@ import (
 
 	"github.com/go-test/deep"
 	version "github.com/hashicorp/go-version"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/helper/logging"
-	"github.com/schiangtc/terraform/internal/copydir"
-	"github.com/schiangtc/terraform/registry"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/helper/logging"
+	"github.com/truecar-ops/terraform/internal/copydir"
+	"github.com/truecar-ops/terraform/registry"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 func TestMain(m *testing.M) {

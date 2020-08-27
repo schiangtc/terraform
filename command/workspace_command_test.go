@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/backend/local"
-	"github.com/schiangtc/terraform/backend/remote-state/inmem"
-	"github.com/schiangtc/terraform/helper/copy"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/backend/local"
+	"github.com/truecar-ops/terraform/backend/remote-state/inmem"
+	"github.com/truecar-ops/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/terraform"
 	"github.com/mitchellh/cli"
 )
 

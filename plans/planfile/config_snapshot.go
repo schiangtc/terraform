@@ -11,7 +11,7 @@ import (
 	"time"
 
 	version "github.com/hashicorp/go-version"
-	"github.com/schiangtc/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/configs/configload"
 )
 
 const configSnapshotPrefix = "tfconfig/"

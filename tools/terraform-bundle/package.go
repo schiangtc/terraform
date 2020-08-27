@@ -15,13 +15,13 @@ import (
 
 	getter "github.com/hashicorp/go-getter"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/httpclient"
-	"github.com/schiangtc/terraform/internal/getproviders"
-	"github.com/schiangtc/terraform/internal/providercache"
-	discovery "github.com/schiangtc/terraform/plugin/discovery"
-	"github.com/schiangtc/terraform/tfdiags"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/httpclient"
+	"github.com/truecar-ops/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/internal/providercache"
+	discovery "github.com/truecar-ops/terraform/plugin/discovery"
+	"github.com/truecar-ops/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/version"
 	"github.com/mitchellh/cli"
 )
 

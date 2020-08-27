@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/schiangtc/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/configs/configschema"
 	"github.com/zclconf/go-cty/cty"
 )
 

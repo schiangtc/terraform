@@ -9,9 +9,9 @@ import (
 	version "github.com/hashicorp/go-version"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 func readStateV4(src []byte) (*File, tfdiags.Diagnostics) {

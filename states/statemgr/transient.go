@@ -1,6 +1,6 @@
 package statemgr
 
-import "github.com/schiangtc/terraform/states"
+import "github.com/truecar-ops/terraform/states"
 
 // Transient is a union of the Reader and Writer interfaces, for types that
 // deal with transient snapshots.

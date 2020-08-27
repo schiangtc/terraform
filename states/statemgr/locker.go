@@ -14,7 +14,7 @@ import (
 	"time"
 
 	uuid "github.com/hashicorp/go-uuid"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/version"
 )
 
 var rngSource = rand.New(rand.NewSource(time.Now().UnixNano()))

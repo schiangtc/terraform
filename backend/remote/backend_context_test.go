@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	tfe "github.com/hashicorp/go-tfe"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/internal/initwd"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/internal/initwd"
+	"github.com/truecar-ops/terraform/states/statemgr"
 	"github.com/zclconf/go-cty/cty"
 )
 

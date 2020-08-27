@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schiangtc/terraform/backend"
+	"github.com/truecar-ops/terraform/backend"
 )
 
 // verify that we are doing ACC tests or the Swift tests specifically

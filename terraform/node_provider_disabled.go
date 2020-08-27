@@ -3,7 +3,7 @@ package terraform
 import (
 	"fmt"
 
-	"github.com/schiangtc/terraform/dag"
+	"github.com/truecar-ops/terraform/dag"
 )
 
 // NodeDisabledProvider represents a provider that is disabled. A disabled

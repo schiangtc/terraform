@@ -6,10 +6,10 @@ import (
 	"sort"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/dag"
-	"github.com/schiangtc/terraform/lang"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/dag"
+	"github.com/truecar-ops/terraform/lang"
 )
 
 // GraphNodeReferenceable must be implemented by any node that represents

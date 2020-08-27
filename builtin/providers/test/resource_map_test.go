@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/helper/resource"
 )
 
 func TestResourceMap_basic(t *testing.T) {

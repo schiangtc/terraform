@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func TestValidateChange(t *testing.T) {

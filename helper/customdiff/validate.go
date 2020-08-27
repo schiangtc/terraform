@@ -1,7 +1,7 @@
 package customdiff
 
 import (
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 // ValueChangeValidationFunc is a function type that validates the difference

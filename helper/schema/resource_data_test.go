@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestResourceDataGet(t *testing.T) {
@@ -1534,7 +1534,7 @@ func TestResourceDataHasChange(t *testing.T) {
 			Change: true,
 		},
 
-		// https://github.com/schiangtc/terraform/issues/927
+		// https://github.com/truecar-ops/terraform/issues/927
 		{
 			Schema: map[string]*Schema{
 				"ports": &Schema{

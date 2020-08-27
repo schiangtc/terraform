@@ -16,19 +16,19 @@ import (
 
 	plugin "github.com/hashicorp/go-plugin"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/backend/local"
-	"github.com/schiangtc/terraform/command/format"
-	"github.com/schiangtc/terraform/command/webbrowser"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/helper/experiment"
-	"github.com/schiangtc/terraform/helper/wrappedstreams"
-	"github.com/schiangtc/terraform/internal/getproviders"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/provisioners"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/backend/local"
+	"github.com/truecar-ops/terraform/command/format"
+	"github.com/truecar-ops/terraform/command/webbrowser"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/helper/experiment"
+	"github.com/truecar-ops/terraform/helper/wrappedstreams"
+	"github.com/truecar-ops/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/provisioners"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 )
@@ -588,7 +588,7 @@ func (m *Meta) outputShadowError(err error, output bool) bool {
 			"background. These features cannot affect real state and never touch\n"+
 			"real infrastructure. If the features work properly, you see nothing.\n"+
 			"If the features fail, this message appears.\n\n"+
-			"You can report an issue at: https://github.com/schiangtc/terraform/issues\n\n"+
+			"You can report an issue at: https://github.com/truecar-ops/terraform/issues\n\n"+
 			"The failure was written to %q. Please\n"+
 			"double check this file contains no sensitive information and report\n"+
 			"it with your issue.\n\n"+

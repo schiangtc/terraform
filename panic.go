@@ -27,7 +27,7 @@ SECURITY WARNING: the "crash.log" file that was created may contain
 sensitive information that must be redacted before it is safe to share
 on the issue tracker.
 
-[1]: https://github.com/schiangtc/terraform/issues
+[1]: https://github.com/truecar-ops/terraform/issues
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!! TERRAFORM CRASH !!!!!!!!!!!!!!!!!!!!!!!!!!!!
 `

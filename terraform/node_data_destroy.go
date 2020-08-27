@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // NodeDestroyableDataResourceInstance represents a resource that is "destroyable":

@@ -20,16 +20,16 @@ import (
 	"github.com/hashicorp/go-multierror"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/command/format"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/helper/logging"
-	"github.com/schiangtc/terraform/internal/initwd"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/terraform"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/command/format"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/helper/logging"
+	"github.com/truecar-ops/terraform/internal/initwd"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/terraform"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // flagSweep is a flag available when running tests on the command line. It

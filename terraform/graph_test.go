@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/dag"
+	"github.com/truecar-ops/terraform/dag"
 )
 
 // testGraphContains is an assertion helper that tests that a node is

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/version"
 )
 
 func TestUserAgentString_env(t *testing.T) {

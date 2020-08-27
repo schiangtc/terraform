@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 // New creates a new backend for Azure remote state.

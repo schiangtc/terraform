@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/states/statefile"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 const tfstateFilename = "tfstate"

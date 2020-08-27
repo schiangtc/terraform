@@ -15,17 +15,17 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/convert"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/helper/experiment"
-	"github.com/schiangtc/terraform/helper/logging"
-	"github.com/schiangtc/terraform/internal/initwd"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/provisioners"
-	"github.com/schiangtc/terraform/registry"
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/helper/experiment"
+	"github.com/truecar-ops/terraform/helper/logging"
+	"github.com/truecar-ops/terraform/internal/initwd"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/provisioners"
+	"github.com/truecar-ops/terraform/registry"
+	"github.com/truecar-ops/terraform/states"
 )
 
 // This is the directory where our test fixtures are.

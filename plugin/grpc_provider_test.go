@@ -7,13 +7,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	proto "github.com/schiangtc/terraform/internal/tfplugin5"
-	mockproto "github.com/schiangtc/terraform/plugin/mock_proto"
+	proto "github.com/truecar-ops/terraform/internal/tfplugin5"
+	mockproto "github.com/truecar-ops/terraform/plugin/mock_proto"
 )
 
 var _ providers.Interface = (*GRPCProvider)(nil)

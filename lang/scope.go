@@ -5,7 +5,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty/function"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // Scope is the main type in this package, allowing dynamic evaluation of

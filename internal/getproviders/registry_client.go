@@ -19,10 +19,10 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/helper/logging"
-	"github.com/schiangtc/terraform/httpclient"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/helper/logging"
+	"github.com/truecar-ops/terraform/httpclient"
+	"github.com/truecar-ops/terraform/version"
 )
 
 const (

@@ -13,8 +13,8 @@ import (
 
 	"github.com/hashicorp/errwrap"
 	multierror "github.com/hashicorp/go-multierror"
-	"github.com/schiangtc/terraform/helper/slowmessage"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/helper/slowmessage"
+	"github.com/truecar-ops/terraform/states/statemgr"
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 )

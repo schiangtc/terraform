@@ -3,7 +3,7 @@ package terraform
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 func TestProvisionerUIOutput_impl(t *testing.T) {

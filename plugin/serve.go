@@ -2,9 +2,9 @@ package plugin
 
 import (
 	"github.com/hashicorp/go-plugin"
-	grpcplugin "github.com/schiangtc/terraform/helper/plugin"
-	proto "github.com/schiangtc/terraform/internal/tfplugin5"
-	"github.com/schiangtc/terraform/terraform"
+	grpcplugin "github.com/truecar-ops/terraform/helper/plugin"
+	proto "github.com/truecar-ops/terraform/internal/tfplugin5"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 const (

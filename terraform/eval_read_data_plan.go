@@ -7,11 +7,11 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/plans/objchange"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/plans/objchange"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // evalReadDataPlan is an EvalNode implementation that deals with the main part

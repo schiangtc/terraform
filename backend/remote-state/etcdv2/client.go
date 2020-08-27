@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	etcdapi "github.com/coreos/etcd/client"
-	"github.com/schiangtc/terraform/states/remote"
+	"github.com/truecar-ops/terraform/states/remote"
 )
 
 // EtcdClient is a remote client that stores data in etcd.

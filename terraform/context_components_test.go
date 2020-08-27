@@ -3,10 +3,10 @@ package terraform
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/provisioners"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/provisioners"
 )
 
 // simpleMockComponentFactory returns a component factory pre-configured with

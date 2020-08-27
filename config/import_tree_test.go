@@ -7,7 +7,7 @@ import (
 func TestImportTreeHCL2Experiment(t *testing.T) {
 	// Can only run this test if we're built with the experiment enabled.
 	// Enable this test by passing the following option to "go test":
-	//    -ldflags="-X github.com/schiangtc/terraform/config.enableHCL2Experiment=true"
+	//    -ldflags="-X github.com/truecar-ops/terraform/config.enableHCL2Experiment=true"
 	// See the comment associated with this flag variable for more information.
 	if enableHCL2Experiment == "" {
 		t.Skip("HCL2 experiment is not enabled")

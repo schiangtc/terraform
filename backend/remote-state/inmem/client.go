@@ -3,8 +3,8 @@ package inmem
 import (
 	"crypto/md5"
 
-	"github.com/schiangtc/terraform/states/remote"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/states/remote"
+	"github.com/truecar-ops/terraform/states/statemgr"
 )
 
 // RemoteClient is a remote client that stores data in memory for testing.

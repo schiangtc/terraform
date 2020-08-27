@@ -3,7 +3,7 @@ package providers
 import (
 	"sort"
 
-	"github.com/schiangtc/terraform/addrs"
+	"github.com/truecar-ops/terraform/addrs"
 )
 
 // AddressedTypesAbs is a helper that extracts all of the distinct provider

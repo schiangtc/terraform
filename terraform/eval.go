@@ -3,7 +3,7 @@ package terraform
 import (
 	"log"
 
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // EvalNode is the interface that must be implemented by graph nodes to

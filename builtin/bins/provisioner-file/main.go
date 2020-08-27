@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/schiangtc/terraform/builtin/provisioners/file"
-	"github.com/schiangtc/terraform/plugin"
+	"github.com/truecar-ops/terraform/builtin/provisioners/file"
+	"github.com/truecar-ops/terraform/plugin"
 )
 
 func main() {

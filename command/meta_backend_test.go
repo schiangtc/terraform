@@ -8,20 +8,20 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/helper/copy"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/statefile"
-	"github.com/schiangtc/terraform/states/statemgr"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/helper/copy"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/statefile"
+	"github.com/truecar-ops/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/terraform"
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/schiangtc/terraform/backend/init"
-	backendLocal "github.com/schiangtc/terraform/backend/local"
-	backendInmem "github.com/schiangtc/terraform/backend/remote-state/inmem"
+	backendInit "github.com/truecar-ops/terraform/backend/init"
+	backendLocal "github.com/truecar-ops/terraform/backend/local"
+	backendInmem "github.com/truecar-ops/terraform/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.

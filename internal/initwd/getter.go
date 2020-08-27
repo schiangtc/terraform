@@ -9,8 +9,8 @@ import (
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	getter "github.com/hashicorp/go-getter"
-	"github.com/schiangtc/terraform/internal/copydir"
-	"github.com/schiangtc/terraform/registry/regsrc"
+	"github.com/truecar-ops/terraform/internal/copydir"
+	"github.com/truecar-ops/terraform/registry/regsrc"
 )
 
 // We configure our own go-getter detector and getter sets here, because

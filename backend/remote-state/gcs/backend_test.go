@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"cloud.google.com/go/storage"
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/states/remote"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/states/remote"
 )
 
 const (

@@ -7,12 +7,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	proto "github.com/schiangtc/terraform/internal/tfplugin5"
-	"github.com/schiangtc/terraform/provisioners"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	proto "github.com/truecar-ops/terraform/internal/tfplugin5"
+	"github.com/truecar-ops/terraform/provisioners"
 	"github.com/zclconf/go-cty/cty"
 
-	mockproto "github.com/schiangtc/terraform/plugin/mock_proto"
+	mockproto "github.com/truecar-ops/terraform/plugin/mock_proto"
 )
 
 var _ provisioners.Interface = (*GRPCProvisioner)(nil)

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/states/statemgr"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

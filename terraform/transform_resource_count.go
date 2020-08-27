@@ -3,9 +3,9 @@ package terraform
 import (
 	"log"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/dag"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/dag"
 )
 
 // ResourceCountTransformer is a GraphTransformer that expands the count

@@ -6,7 +6,7 @@ import (
 
 	hclog "github.com/hashicorp/go-hclog"
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/schiangtc/terraform/plugin/discovery"
+	"github.com/truecar-ops/terraform/plugin/discovery"
 )
 
 // The TF_DISABLE_PLUGIN_TLS environment variable is intended only for use by

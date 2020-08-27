@@ -9,9 +9,9 @@ import (
 
 	"github.com/apparentlymart/go-versions/versions"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/internal/copydir"
-	"github.com/schiangtc/terraform/internal/getproviders"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/internal/copydir"
+	"github.com/truecar-ops/terraform/internal/getproviders"
 )
 
 // Installer is the main type in this package, representing a provider installer

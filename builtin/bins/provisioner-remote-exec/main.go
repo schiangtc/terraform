@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/schiangtc/terraform/builtin/provisioners/remote-exec"
-	"github.com/schiangtc/terraform/plugin"
+	"github.com/truecar-ops/terraform/builtin/provisioners/remote-exec"
+	"github.com/truecar-ops/terraform/plugin"
 )
 
 func main() {

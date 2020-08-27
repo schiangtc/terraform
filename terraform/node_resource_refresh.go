@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/providers"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/providers"
 
-	"github.com/schiangtc/terraform/states"
+	"github.com/truecar-ops/terraform/states"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/dag"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/dag"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // nodeExpandRefreshableResource handles the first layer of resource

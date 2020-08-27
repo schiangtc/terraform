@@ -1,12 +1,12 @@
 package initwd
 
 import (
-	"github.com/schiangtc/terraform/registry"
+	"github.com/truecar-ops/terraform/registry"
 	"testing"
 
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/configs/configload"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/configs/configload"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 // LoadConfigForTests is a convenience wrapper around configload.NewLoaderForTests,

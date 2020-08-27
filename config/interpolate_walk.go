@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/hil"
 	"github.com/hashicorp/hil/ast"
-	"github.com/schiangtc/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
 	"github.com/mitchellh/reflectwalk"
 )
 

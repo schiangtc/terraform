@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/plugin/discovery"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/plugin/discovery"
 )
 
 func TestModuleWalkTree(t *testing.T) {

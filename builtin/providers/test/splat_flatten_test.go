@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/schiangtc/terraform/helper/resource"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 // This is actually a test of some core functionality in conjunction with

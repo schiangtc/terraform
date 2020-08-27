@@ -9,14 +9,14 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/schiangtc/terraform/internal/earlyconfig"
+	"github.com/truecar-ops/terraform/internal/earlyconfig"
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-config-inspect/tfconfig"
-	"github.com/schiangtc/terraform/internal/copydir"
-	"github.com/schiangtc/terraform/internal/modsdir"
-	"github.com/schiangtc/terraform/registry"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/internal/copydir"
+	"github.com/truecar-ops/terraform/internal/modsdir"
+	"github.com/truecar-ops/terraform/registry"
+	"github.com/truecar-ops/terraform/tfdiags"
 )
 
 const initFromModuleRootCallName = "root"

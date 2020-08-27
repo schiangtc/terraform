@@ -3,8 +3,8 @@ package test
 import (
 	"fmt"
 
-	"github.com/schiangtc/terraform/configs/hcl2shim"
-	"github.com/schiangtc/terraform/helper/schema"
+	"github.com/truecar-ops/terraform/configs/hcl2shim"
+	"github.com/truecar-ops/terraform/helper/schema"
 )
 
 func testResourceMap() *schema.Resource {

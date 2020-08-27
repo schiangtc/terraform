@@ -3,7 +3,7 @@ package statefile
 import (
 	"io"
 
-	tfversion "github.com/schiangtc/terraform/version"
+	tfversion "github.com/truecar-ops/terraform/version"
 )
 
 // Write writes the given state to the given writer in the current state

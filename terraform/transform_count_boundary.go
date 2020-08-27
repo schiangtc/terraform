@@ -1,8 +1,8 @@
 package terraform
 
 import (
-	"github.com/schiangtc/terraform/configs"
-	"github.com/schiangtc/terraform/dag"
+	"github.com/truecar-ops/terraform/configs"
+	"github.com/truecar-ops/terraform/dag"
 )
 
 // CountBoundaryTransformer adds a node that depends on everything else

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/schiangtc/terraform/e2e"
+	"github.com/truecar-ops/terraform/e2e"
 )
 
 // The tests in this file run through different scenarios recommended in our

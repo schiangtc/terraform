@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/schema"
-	statespkg "github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/states/remote"
-	"github.com/schiangtc/terraform/states/statemgr"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/schema"
+	statespkg "github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/states/remote"
+	"github.com/truecar-ops/terraform/states/statemgr"
 )
 
 // we keep the states and locks in package-level variables, so that they can be

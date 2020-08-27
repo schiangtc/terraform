@@ -9,7 +9,7 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/schiangtc/terraform/configs"
+	"github.com/truecar-ops/terraform/configs"
 )
 
 func init() {

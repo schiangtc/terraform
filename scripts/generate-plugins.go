@@ -108,11 +108,11 @@ func makeImports(providers, provisioners []plugin) string {
 	plugins := []string{}
 
 	for _, provider := range providers {
-		plugins = append(plugins, fmt.Sprintf("\t%s \"github.com/schiangtc/terraform/%s\"\n", provider.ImportName, filepath.ToSlash(provider.Path)))
+		plugins = append(plugins, fmt.Sprintf("\t%s \"github.com/truecar-ops/terraform/%s\"\n", provider.ImportName, filepath.ToSlash(provider.Path)))
 	}
 
 	for _, provisioner := range provisioners {
-		plugins = append(plugins, fmt.Sprintf("\t%s \"github.com/schiangtc/terraform/%s\"\n", provisioner.ImportName, filepath.ToSlash(provisioner.Path)))
+		plugins = append(plugins, fmt.Sprintf("\t%s \"github.com/truecar-ops/terraform/%s\"\n", provisioner.ImportName, filepath.ToSlash(provisioner.Path)))
 	}
 
 	// Make things pretty
@@ -274,7 +274,7 @@ package command
 
 import (
 IMPORTS
-	"github.com/schiangtc/terraform/plugin"
+	"github.com/truecar-ops/terraform/plugin"
 )
 
 var InternalProviders = map[string]plugin.ProviderFunc{}

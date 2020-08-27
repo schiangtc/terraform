@@ -3,7 +3,7 @@ package ssh
 import (
 	"testing"
 
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestProvisioner_connInfo(t *testing.T) {

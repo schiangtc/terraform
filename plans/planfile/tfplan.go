@@ -7,12 +7,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/plans"
-	"github.com/schiangtc/terraform/plans/internal/planproto"
-	"github.com/schiangtc/terraform/states"
-	"github.com/schiangtc/terraform/tfdiags"
-	"github.com/schiangtc/terraform/version"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/plans"
+	"github.com/truecar-ops/terraform/plans/internal/planproto"
+	"github.com/truecar-ops/terraform/states"
+	"github.com/truecar-ops/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/version"
 )
 
 const tfplanFormatVersion = 3

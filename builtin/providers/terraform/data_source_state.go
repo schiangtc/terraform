@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/configs/configschema"
-	"github.com/schiangtc/terraform/providers"
-	"github.com/schiangtc/terraform/tfdiags"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/configs/configschema"
+	"github.com/truecar-ops/terraform/providers"
+	"github.com/truecar-ops/terraform/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
-	backendInit "github.com/schiangtc/terraform/backend/init"
+	backendInit "github.com/truecar-ops/terraform/backend/init"
 )
 
 func dataSourceRemoteStateGetSchema() providers.Schema {

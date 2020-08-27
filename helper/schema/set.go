@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/schiangtc/terraform/helper/hashcode"
+	"github.com/truecar-ops/terraform/helper/hashcode"
 )
 
 // HashString hashes strings. If you want a Set of strings, this is the

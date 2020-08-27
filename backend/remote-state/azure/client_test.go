@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/schiangtc/terraform/backend"
-	"github.com/schiangtc/terraform/helper/acctest"
-	"github.com/schiangtc/terraform/states/remote"
+	"github.com/truecar-ops/terraform/backend"
+	"github.com/truecar-ops/terraform/helper/acctest"
+	"github.com/truecar-ops/terraform/states/remote"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/blobs"
 )
 

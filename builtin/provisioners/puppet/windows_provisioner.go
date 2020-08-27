@@ -5,7 +5,7 @@ import (
 	"io"
 	"strings"
 
-	"github.com/schiangtc/terraform/communicator/remote"
+	"github.com/truecar-ops/terraform/communicator/remote"
 )
 
 const (

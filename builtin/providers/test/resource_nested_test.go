@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/schiangtc/terraform/addrs"
-	"github.com/schiangtc/terraform/helper/resource"
-	"github.com/schiangtc/terraform/terraform"
+	"github.com/truecar-ops/terraform/addrs"
+	"github.com/truecar-ops/terraform/helper/resource"
+	"github.com/truecar-ops/terraform/terraform"
 )
 
 func TestResourceNested_basic(t *testing.T) {
